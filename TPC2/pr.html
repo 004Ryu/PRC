@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <style>
+      td.main{
+      border: 2px solid black;
+      width: 1500px;
+      height: 200px;
+      }
+      
+   </style>
+   <head>
+      <title>Project Record</title>
+      <meta charset="UTF-8"></meta>
+   </head>
+   <body>
+      <h1>Básicos de SPARQL</h1>
+      <h2>Ontologia do Arquivo Sonoro</h2>
+      <table>
+         <thead>PRC_TPC2</thead>
+         <tr>
+            <td class="main">
+               <h2>Workteam</h2>
+               <l style="list-style-type:none;">
+                  
+                  <li>
+                     <table>
+                        <tr>
+                           <td>
+                              <h3>1</h3>
+                              <p>
+                                 <b>Name: </b>Eduardo Semanas de Oliveira Araújo
+                              </p>
+                              <p>
+                                 <b>Email: </b>a75536@alunos.uminho.pt
+                              </p>
+                           </td>
+                           <td>
+                              <img src="memberPhotos/semanas.jpg" height="140px"></img>
+                           </td>
+                        </tr>
+                     </table>
+                  </li>
+                  
+               </l>
+            </td>
+            <td class="main">
+               <h2>Supervisor</h2>
+               <p>
+                  <b>Name: </b>José Carlos Leite Ramalho
+               </p>
+               <p>
+                  <b>Email: </b>jcr@di.uminho.pt
+               </p>
+               <p>
+                  <b>Homepage: </b>
+                  <a href="http://www.di.uminho.pt/~jcr">www.di.uminho.pt/~jcr</a>
+               </p>
+            </td>
+         </tr>
+         <tr>
+            <td class="main">
+               <h2>Deliverables</h2>
+               <ul>
+                  
+                  <li>
+                     <a href="/arqSon.ttl">1 - Ficheito TTL final</a>
+                  </li>
+                  <li>
+                     <a href="/arquivoSonoro.xml">2 - Ficheiro XML com a informação inicial</a>
+                  </li>
+                  <li>
+                     <a href="/xml2ttl.xsl">3 - Stylesheet de conversão das entidades iniciais para o formato TTL</a>
+                  </li>
+                  <li>
+                     <a href="/xmlOut.ttl">4 - Resultado da aplicação do ficheiro 3 ao ficheiro 2</a>
+                  </li>
+                  
+               </ul>
+            </td>
+            <td class="main">
+               <p>
+                  <b>Begin Date: </b>14/02/2020
+               </p>
+               <p>
+                  <b>End Date: </b>15/02/2020
+               </p>
+            </td>
+         </tr>
+      </table>
+      <h1>Abstract</h1>
+      <div>
+         <p>Para este TPC foi-nos proposta a criação de uma topologia capaz de processar a informação existente no ficheiro "arquivoSonor.xml",
+            com esse objetivo foi definida uma topologia (representada no ficheiro arqSon.ttl) com as seguintes caracteristicas:
+         </p>
+
+         <pre>
+            Classes:
+               Obras;
+               Partituras.
+            
+            DataProperties:
+               afinacao;
+               clave;
+               compositor;
+               designacao;
+               inf-relacionada;
+               path;
+               tipo;
+               titulo;
+               voz.
+
+            ObjectProperties:
+               partituraDe.
+         </pre>
+
+         <p>A povoação das entidades foi realizada através da aplicação da <i>stylesheet</i> "xml2ttl.xsl" ao ficheiro <b>XML</b> anteriormente referido,
+         obtendo o ficheito "xmlOut.ttl" (com as entidades em formato .ttl). Após obter as entidades no formato pretendido estas foram então copiadas
+         para o ficheito "arqSon.ttl" correspondente, então, ao estado final da topologia.</p>
+
+         <p>Foi-nos ainda proposta a realização de algumas <i>queries</i> em formato <b>SPARQL</b> que estão apresentadas abaixo:</p>
+         
+         <pre>
+            PREFIX : <http://www.semanticweb.org/eduar/ontologies/2020/1/arqSon#>
+            PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    
+    
+            1 - Nomes dos compositores (se possivel em ordem alfabética);
+    
+                select distinct ?comp where { 
+                    ?obra :compositor ?comp .
+                } order by asc(UCASE(str(?comp)))
+    
+    
+            2 - Titulos das obras do tipo "marcha de desfile";
+    
+                select ?title where { 
+                    ?obra :titulo ?title .
+                    ?obra :tipo "Marcha de Desfile" .
+                }
+    
+    
+            3 - Para cada obra quantas partituras estão catalogadas;
+    
+                select ?title (COUNT(?partDe) as ?partCount) where { 
+                    ?obra :titulo ?title .
+                    ?part ?partDe ?obra .
+                } group by ?title
+    
+    
+            4 - Quais os titulos das obras com partitura para "Bombo";
+    
+                select ?title where { 
+                    ?obra :titulo ?title .
+                    ?part :partituraDe ?obra .
+                    ?part :designacao "Bombo" .
+                }
+         </pre>
+                  
+      </div>
+   </body>
+</html>
