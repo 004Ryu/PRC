@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet 1 - PRI2019 - Avaliação","startColumn":"A","endColumn":"B","startRow":"3","endRow":"+","comment":"","rule":"Individual: @A*\nTypes: Aluno\nFacts: nome @B*,\n          ident @A*,\n          frequenta gcs,\n          frequenta spln,\n          frequenta pri,\n          frequenta prc","active":true}]}

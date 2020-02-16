@@ -1,0 +1,529 @@
+Date: 2020-02-16 17:48:36
+Ontology source: /C:/Users/Eduar/Desktop/Trabalho/PRC/Aula1/salaAula.ttl
+Worksheet source: C:\Users\Eduar\Desktop\Trabalho\PRC\Aula1\alunos.xls
+Transformation rules: C:\Users\Eduar\Desktop\Trabalho\PRC\Aula1\SalaDeAulaRules.json
+
+# Cell range: (Sheet1!A3:B+) Comment: ""
+# Individual: @A*
+# Types: Aluno
+# Facts: nome @B*,
+#           ident @A*,
+#           frequenta gcs,
+#           frequenta spln,
+#           frequenta pri,
+#           frequenta prc
+
+Individual: A78997  # Generated from value "A78997" located at cell 'Sheet1'!A3.
+   Facts: nome "Bruno Sousa"  # Generated from value "Bruno Sousa" located at cell 'Sheet1'!B3.,
+         ident "A78997"  # Generated from value "A78997" located at cell 'Sheet1'!A3.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A82324  # Generated from value "A82324" located at cell 'Sheet1'!A4.
+   Facts: nome "Carlos Barbosa"  # Generated from value "Carlos Barbosa" located at cell 'Sheet1'!B4.,
+         ident "A82324"  # Generated from value "A82324" located at cell 'Sheet1'!A4.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG37149  # Generated from value "PG37149" located at cell 'Sheet1'!A5.
+   Facts: nome "Diego Silva"  # Generated from value "Diego Silva" located at cell 'Sheet1'!B5.,
+         ident "PG37149"  # Generated from value "PG37149" located at cell 'Sheet1'!A5.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75536  # Generated from value "A75536" located at cell 'Sheet1'!A6.
+   Facts: nome "Eduardo Araújo"  # Generated from value "Eduardo Araújo" located at cell 'Sheet1'!B6.,
+         ident "A75536"  # Generated from value "A75536" located at cell 'Sheet1'!A6.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A71940  # Generated from value "A71940" located at cell 'Sheet1'!A7.
+   Facts: nome "Eduardo Cunha"  # Generated from value "Eduardo Cunha" located at cell 'Sheet1'!B7.,
+         ident "A71940"  # Generated from value "A71940" located at cell 'Sheet1'!A7.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A70922  # Generated from value "A70922" located at cell 'Sheet1'!A8.
+   Facts: nome "Francisco Costa"  # Generated from value "Francisco Costa" located at cell 'Sheet1'!B8.,
+         ident "A70922"  # Generated from value "A70922" located at cell 'Sheet1'!A8.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG38415  # Generated from value "PG38415" located at cell 'Sheet1'!A9.
+   Facts: nome "Henrique Ribeiro"  # Generated from value "Henrique Ribeiro" located at cell 'Sheet1'!B9.,
+         ident "PG38415"  # Generated from value "PG38415" located at cell 'Sheet1'!A9.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A80757  # Generated from value "A80757" located at cell 'Sheet1'!A10.
+   Facts: nome "Jaime Leite"  # Generated from value "Jaime Leite" located at cell 'Sheet1'!B10.,
+         ident "A80757"  # Generated from value "A80757" located at cell 'Sheet1'!A10.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG33874  # Generated from value "PG33874" located at cell 'Sheet1'!A11.
+   Facts: nome "João Grenhas"  # Generated from value "João Grenhas" located at cell 'Sheet1'!B11.,
+         ident "PG33874"  # Generated from value "PG33874" located at cell 'Sheet1'!A11.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75569  # Generated from value "A75569" located at cell 'Sheet1'!A12.
+   Facts: nome "João Leal"  # Generated from value "João Leal" located at cell 'Sheet1'!B12.,
+         ident "A75569"  # Generated from value "A75569" located at cell 'Sheet1'!A12.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A80874  # Generated from value "A80874" located at cell 'Sheet1'!A13.
+   Facts: nome "João Pimentel"  # Generated from value "João Pimentel" located at cell 'Sheet1'!B13.,
+         ident "A80874"  # Generated from value "A80874" located at cell 'Sheet1'!A13.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A76516  # Generated from value "A76516" located at cell 'Sheet1'!A14.
+   Facts: nome "João Vieira"  # Generated from value "João Vieira" located at cell 'Sheet1'!B14.,
+         ident "A76516"  # Generated from value "A76516" located at cell 'Sheet1'!A14.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A80424  # Generated from value "A80424" located at cell 'Sheet1'!A15.
+   Facts: nome "José Carvalho"  # Generated from value "José Carvalho" located at cell 'Sheet1'!B15.,
+         ident "A80424"  # Generated from value "A80424" located at cell 'Sheet1'!A15.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A63129  # Generated from value "A63129" located at cell 'Sheet1'!A16.
+   Facts: nome "José Freitas"  # Generated from value "José Freitas" located at cell 'Sheet1'!B16.,
+         ident "A63129"  # Generated from value "A63129" located at cell 'Sheet1'!A16.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A72187  # Generated from value "A72187" located at cell 'Sheet1'!A17.
+   Facts: nome "José Lima"  # Generated from value "José Lima" located at cell 'Sheet1'!B17.,
+         ident "A72187"  # Generated from value "A72187" located at cell 'Sheet1'!A17.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74036  # Generated from value "A74036" located at cell 'Sheet1'!A18.
+   Facts: nome "Manuel Monteiro"  # Generated from value "Manuel Monteiro" located at cell 'Sheet1'!B18.,
+         ident "A74036"  # Generated from value "A74036" located at cell 'Sheet1'!A18.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A67713  # Generated from value "A67713" located at cell 'Sheet1'!A19.
+   Facts: nome "Manuel Moreno"  # Generated from value "Manuel Moreno" located at cell 'Sheet1'!B19.,
+         ident "A67713"  # Generated from value "A67713" located at cell 'Sheet1'!A19.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG39292  # Generated from value "PG39292" located at cell 'Sheet1'!A20.
+   Facts: nome "Maria Pinto"  # Generated from value "Maria Pinto" located at cell 'Sheet1'!B20.,
+         ident "PG39292"  # Generated from value "PG39292" located at cell 'Sheet1'!A20.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG41089  # Generated from value "PG41089" located at cell 'Sheet1'!A21.
+   Facts: nome "Miguel Dias"  # Generated from value "Miguel Dias" located at cell 'Sheet1'!B21.,
+         ident "PG41089"  # Generated from value "PG41089" located at cell 'Sheet1'!A21.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG17918  # Generated from value "PG17918" located at cell 'Sheet1'!A22.
+   Facts: nome "Paulo Martins"  # Generated from value "Paulo Martins" located at cell 'Sheet1'!B22.,
+         ident "PG17918"  # Generated from value "PG17918" located at cell 'Sheet1'!A22.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A33524  # Generated from value "A33524" located at cell 'Sheet1'!A23.
+   Facts: nome "Pedro Paes"  # Generated from value "Pedro Paes" located at cell 'Sheet1'!B23.,
+         ident "A33524"  # Generated from value "A33524" located at cell 'Sheet1'!A23.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74264  # Generated from value "A74264" located at cell 'Sheet1'!A24.
+   Facts: nome "Rafael Silva"  # Generated from value "Rafael Silva" located at cell 'Sheet1'!B24.,
+         ident "A74264"  # Generated from value "A74264" located at cell 'Sheet1'!A24.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74568  # Generated from value "A74568" located at cell 'Sheet1'!A25.
+   Facts: nome "Ricardo Canela"  # Generated from value "Ricardo Canela" located at cell 'Sheet1'!B25.,
+         ident "A74568"  # Generated from value "A74568" located at cell 'Sheet1'!A25.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75411  # Generated from value "A75411" located at cell 'Sheet1'!A26.
+   Facts: nome "Ricardo Leal"  # Generated from value "Ricardo Leal" located at cell 'Sheet1'!B26.,
+         ident "A75411"  # Generated from value "A75411" located at cell 'Sheet1'!A26.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A78914  # Generated from value "A78914" located at cell 'Sheet1'!A27.
+   Facts: nome "Ricardo Martins"  # Generated from value "Ricardo Martins" located at cell 'Sheet1'!B27.,
+         ident "A78914"  # Generated from value "A78914" located at cell 'Sheet1'!A27.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A78764  # Generated from value "A78764" located at cell 'Sheet1'!A28.
+   Facts: nome "Ricardo Neves"  # Generated from value "Ricardo Neves" located at cell 'Sheet1'!B28.,
+         ident "A78764"  # Generated from value "A78764" located at cell 'Sheet1'!A28.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A77045  # Generated from value "A77045" located at cell 'Sheet1'!A29.
+   Facts: nome "Ricardo Pereira"  # Generated from value "Ricardo Pereira" located at cell 'Sheet1'!B29.,
+         ident "A77045"  # Generated from value "A77045" located at cell 'Sheet1'!A29.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A79947  # Generated from value "A79947" located at cell 'Sheet1'!A30.
+   Facts: nome "Rui Costa"  # Generated from value "Rui Costa" located at cell 'Sheet1'!B30.,
+         ident "A79947"  # Generated from value "A79947" located at cell 'Sheet1'!A30.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74658  # Generated from value "A74658" located at cell 'Sheet1'!A31.
+   Facts: nome "Rui Vieira"  # Generated from value "Rui Vieira" located at cell 'Sheet1'!B31.,
+         ident "A74658"  # Generated from value "A74658" located at cell 'Sheet1'!A31.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A82617  # Generated from value "A82617" located at cell 'Sheet1'!A32.
+   Facts: nome "Shahzod Yusupov"  # Generated from value "Shahzod Yusupov" located at cell 'Sheet1'!B32.,
+         ident "A82617"  # Generated from value "A82617" located at cell 'Sheet1'!A32.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75328  # Generated from value "A75328" located at cell 'Sheet1'!A33.
+   Facts: nome "Tiago Baptista"  # Generated from value "Tiago Baptista" located at cell 'Sheet1'!B33.,
+         ident "A75328"  # Generated from value "A75328" located at cell 'Sheet1'!A33.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A61032  # Generated from value "A61032" located at cell 'Sheet1'!A34.
+   Facts: nome "Tiago Pereira"  # Generated from value "Tiago Pereira" located at cell 'Sheet1'!B34.,
+         ident "A61032"  # Generated from value "A61032" located at cell 'Sheet1'!A34.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A78997  # Generated from value "A78997" located at cell 'Sheet1'!A3.
+   Facts: nome "Bruno Sousa"  # Generated from value "Bruno Sousa" located at cell 'Sheet1'!B3.,
+         ident "A78997"  # Generated from value "A78997" located at cell 'Sheet1'!A3.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A82324  # Generated from value "A82324" located at cell 'Sheet1'!A4.
+   Facts: nome "Carlos Barbosa"  # Generated from value "Carlos Barbosa" located at cell 'Sheet1'!B4.,
+         ident "A82324"  # Generated from value "A82324" located at cell 'Sheet1'!A4.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG37149  # Generated from value "PG37149" located at cell 'Sheet1'!A5.
+   Facts: nome "Diego Silva"  # Generated from value "Diego Silva" located at cell 'Sheet1'!B5.,
+         ident "PG37149"  # Generated from value "PG37149" located at cell 'Sheet1'!A5.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75536  # Generated from value "A75536" located at cell 'Sheet1'!A6.
+   Facts: nome "Eduardo Araújo"  # Generated from value "Eduardo Araújo" located at cell 'Sheet1'!B6.,
+         ident "A75536"  # Generated from value "A75536" located at cell 'Sheet1'!A6.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A71940  # Generated from value "A71940" located at cell 'Sheet1'!A7.
+   Facts: nome "Eduardo Cunha"  # Generated from value "Eduardo Cunha" located at cell 'Sheet1'!B7.,
+         ident "A71940"  # Generated from value "A71940" located at cell 'Sheet1'!A7.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A70922  # Generated from value "A70922" located at cell 'Sheet1'!A8.
+   Facts: nome "Francisco Costa"  # Generated from value "Francisco Costa" located at cell 'Sheet1'!B8.,
+         ident "A70922"  # Generated from value "A70922" located at cell 'Sheet1'!A8.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG38415  # Generated from value "PG38415" located at cell 'Sheet1'!A9.
+   Facts: nome "Henrique Ribeiro"  # Generated from value "Henrique Ribeiro" located at cell 'Sheet1'!B9.,
+         ident "PG38415"  # Generated from value "PG38415" located at cell 'Sheet1'!A9.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A80757  # Generated from value "A80757" located at cell 'Sheet1'!A10.
+   Facts: nome "Jaime Leite"  # Generated from value "Jaime Leite" located at cell 'Sheet1'!B10.,
+         ident "A80757"  # Generated from value "A80757" located at cell 'Sheet1'!A10.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG33874  # Generated from value "PG33874" located at cell 'Sheet1'!A11.
+   Facts: nome "João Grenhas"  # Generated from value "João Grenhas" located at cell 'Sheet1'!B11.,
+         ident "PG33874"  # Generated from value "PG33874" located at cell 'Sheet1'!A11.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75569  # Generated from value "A75569" located at cell 'Sheet1'!A12.
+   Facts: nome "João Leal"  # Generated from value "João Leal" located at cell 'Sheet1'!B12.,
+         ident "A75569"  # Generated from value "A75569" located at cell 'Sheet1'!A12.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A80874  # Generated from value "A80874" located at cell 'Sheet1'!A13.
+   Facts: nome "João Pimentel"  # Generated from value "João Pimentel" located at cell 'Sheet1'!B13.,
+         ident "A80874"  # Generated from value "A80874" located at cell 'Sheet1'!A13.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A76516  # Generated from value "A76516" located at cell 'Sheet1'!A14.
+   Facts: nome "João Vieira"  # Generated from value "João Vieira" located at cell 'Sheet1'!B14.,
+         ident "A76516"  # Generated from value "A76516" located at cell 'Sheet1'!A14.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A80424  # Generated from value "A80424" located at cell 'Sheet1'!A15.
+   Facts: nome "José Carvalho"  # Generated from value "José Carvalho" located at cell 'Sheet1'!B15.,
+         ident "A80424"  # Generated from value "A80424" located at cell 'Sheet1'!A15.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A63129  # Generated from value "A63129" located at cell 'Sheet1'!A16.
+   Facts: nome "José Freitas"  # Generated from value "José Freitas" located at cell 'Sheet1'!B16.,
+         ident "A63129"  # Generated from value "A63129" located at cell 'Sheet1'!A16.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A72187  # Generated from value "A72187" located at cell 'Sheet1'!A17.
+   Facts: nome "José Lima"  # Generated from value "José Lima" located at cell 'Sheet1'!B17.,
+         ident "A72187"  # Generated from value "A72187" located at cell 'Sheet1'!A17.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74036  # Generated from value "A74036" located at cell 'Sheet1'!A18.
+   Facts: nome "Manuel Monteiro"  # Generated from value "Manuel Monteiro" located at cell 'Sheet1'!B18.,
+         ident "A74036"  # Generated from value "A74036" located at cell 'Sheet1'!A18.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A67713  # Generated from value "A67713" located at cell 'Sheet1'!A19.
+   Facts: nome "Manuel Moreno"  # Generated from value "Manuel Moreno" located at cell 'Sheet1'!B19.,
+         ident "A67713"  # Generated from value "A67713" located at cell 'Sheet1'!A19.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG39292  # Generated from value "PG39292" located at cell 'Sheet1'!A20.
+   Facts: nome "Maria Pinto"  # Generated from value "Maria Pinto" located at cell 'Sheet1'!B20.,
+         ident "PG39292"  # Generated from value "PG39292" located at cell 'Sheet1'!A20.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG41089  # Generated from value "PG41089" located at cell 'Sheet1'!A21.
+   Facts: nome "Miguel Dias"  # Generated from value "Miguel Dias" located at cell 'Sheet1'!B21.,
+         ident "PG41089"  # Generated from value "PG41089" located at cell 'Sheet1'!A21.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: PG17918  # Generated from value "PG17918" located at cell 'Sheet1'!A22.
+   Facts: nome "Paulo Martins"  # Generated from value "Paulo Martins" located at cell 'Sheet1'!B22.,
+         ident "PG17918"  # Generated from value "PG17918" located at cell 'Sheet1'!A22.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A33524  # Generated from value "A33524" located at cell 'Sheet1'!A23.
+   Facts: nome "Pedro Paes"  # Generated from value "Pedro Paes" located at cell 'Sheet1'!B23.,
+         ident "A33524"  # Generated from value "A33524" located at cell 'Sheet1'!A23.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74264  # Generated from value "A74264" located at cell 'Sheet1'!A24.
+   Facts: nome "Rafael Silva"  # Generated from value "Rafael Silva" located at cell 'Sheet1'!B24.,
+         ident "A74264"  # Generated from value "A74264" located at cell 'Sheet1'!A24.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74568  # Generated from value "A74568" located at cell 'Sheet1'!A25.
+   Facts: nome "Ricardo Canela"  # Generated from value "Ricardo Canela" located at cell 'Sheet1'!B25.,
+         ident "A74568"  # Generated from value "A74568" located at cell 'Sheet1'!A25.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75411  # Generated from value "A75411" located at cell 'Sheet1'!A26.
+   Facts: nome "Ricardo Leal"  # Generated from value "Ricardo Leal" located at cell 'Sheet1'!B26.,
+         ident "A75411"  # Generated from value "A75411" located at cell 'Sheet1'!A26.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A78914  # Generated from value "A78914" located at cell 'Sheet1'!A27.
+   Facts: nome "Ricardo Martins"  # Generated from value "Ricardo Martins" located at cell 'Sheet1'!B27.,
+         ident "A78914"  # Generated from value "A78914" located at cell 'Sheet1'!A27.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A78764  # Generated from value "A78764" located at cell 'Sheet1'!A28.
+   Facts: nome "Ricardo Neves"  # Generated from value "Ricardo Neves" located at cell 'Sheet1'!B28.,
+         ident "A78764"  # Generated from value "A78764" located at cell 'Sheet1'!A28.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A77045  # Generated from value "A77045" located at cell 'Sheet1'!A29.
+   Facts: nome "Ricardo Pereira"  # Generated from value "Ricardo Pereira" located at cell 'Sheet1'!B29.,
+         ident "A77045"  # Generated from value "A77045" located at cell 'Sheet1'!A29.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A79947  # Generated from value "A79947" located at cell 'Sheet1'!A30.
+   Facts: nome "Rui Costa"  # Generated from value "Rui Costa" located at cell 'Sheet1'!B30.,
+         ident "A79947"  # Generated from value "A79947" located at cell 'Sheet1'!A30.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A74658  # Generated from value "A74658" located at cell 'Sheet1'!A31.
+   Facts: nome "Rui Vieira"  # Generated from value "Rui Vieira" located at cell 'Sheet1'!B31.,
+         ident "A74658"  # Generated from value "A74658" located at cell 'Sheet1'!A31.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A82617  # Generated from value "A82617" located at cell 'Sheet1'!A32.
+   Facts: nome "Shahzod Yusupov"  # Generated from value "Shahzod Yusupov" located at cell 'Sheet1'!B32.,
+         ident "A82617"  # Generated from value "A82617" located at cell 'Sheet1'!A32.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A75328  # Generated from value "A75328" located at cell 'Sheet1'!A33.
+   Facts: nome "Tiago Baptista"  # Generated from value "Tiago Baptista" located at cell 'Sheet1'!B33.,
+         ident "A75328"  # Generated from value "A75328" located at cell 'Sheet1'!A33.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+Individual: A61032  # Generated from value "A61032" located at cell 'Sheet1'!A34.
+   Facts: nome "Tiago Pereira"  # Generated from value "Tiago Pereira" located at cell 'Sheet1'!B34.,
+         ident "A61032"  # Generated from value "A61032" located at cell 'Sheet1'!A34.,
+         frequenta gcs,
+         frequenta spln,
+         frequenta pri,
+         frequenta prc
+   Types: Aluno
+
+===========================================================================================================
