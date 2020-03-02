@@ -1,0 +1,35 @@
+extends layout
+
+block content
+	h1.w3-center #{obra.tit}
+	.w3-container
+		table.w3-table-all
+			tr
+				th.w3-center.w3-large ID
+				th.w3-center.w3-large Compositor
+				th.w3-center.w3-large Tipo
+                th.w3-center.w3-large Arranjador
+			tr
+                td= obra.id
+                td= obra.comp
+                td= obra.tipo
+                td= obra.arr
+
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-brown
+                h3 Lista de partituras:
+            .w3-container
+                table.w3-table-all
+                    tr
+                        th.w3-center.w3-large Instrumento
+                        th.w3-center.w3-large Voz
+                        th.w3-center.w3-large Clave
+                        th.w3-center.w3-large Afinação
+
+                    each p in parts
+                        tr
+                            td= p.inst
+                            td= p.voz
+                            td= p.clave
+                            td= p.afina
