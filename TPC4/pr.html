@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <style>
+      td.main{
+      border: 2px solid black;
+      width: 1500px;
+      height: 200px;
+      }
+      
+   </style>
+   <head>
+      <title>Project Record</title>
+      <meta charset="UTF-8"></meta>
+   </head>
+   <body>
+      <h1>DBpedia SPARQL</h1>
+      <h2>DataSet de "Swimmers"</h2>
+      <table>
+         <thead>PRC_TPC4</thead>
+         <tr>
+            <td class="main">
+               <h2>Workteam</h2>
+               <l style="list-style-type:none;">
+                  
+                  <li>
+                     <table>
+                        <tr>
+                           <td>
+                              <h3>1</h3>
+                              <p>
+                                 <b>Name: </b>Eduardo Semanas de Oliveira Araújo
+                              </p>
+                              <p>
+                                 <b>Email: </b>a75536@alunos.uminho.pt
+                              </p>
+                           </td>
+                           <td>
+                              <img src="memberPhotos/semanas.jpg" height="140px"></img>
+                           </td>
+                        </tr>
+                     </table>
+                  </li>
+                  
+               </l>
+            </td>
+            <td class="main">
+               <h2>Supervisor</h2>
+               <p>
+                  <b>Name: </b>José Carlos Leite Ramalho
+               </p>
+               <p>
+                  <b>Email: </b>jcr@di.uminho.pt
+               </p>
+               <p>
+                  <b>Homepage: </b>
+                  <a href="http://www.di.uminho.pt/~jcr">www.di.uminho.pt/~jcr</a>
+               </p>
+            </td>
+         </tr>
+         <tr>
+            <td class="main">
+               <h2>Deliverables</h2>
+               <ul>
+                  
+                  <li>
+                     <a href="swimmers.json">1 - DataSet</a>
+                  </li>
+                  
+               </ul>
+            </td>
+            <td class="main">
+               <p>
+                  <b>Begin Date: </b>09/03/2020
+               </p>
+               <p>
+                  <b>End Date: </b>09/03/2020
+               </p>
+            </td>
+         </tr>
+      </table>
+      <h1>Abstract</h1>
+      <div>
+         <p>Para este TPC foi-nos proposta a criação de um <b>DataSet</b> em formato <b>JSON</b> de nadadores ou <i>swimmers</i> através dos <b>DataSets</b>
+            da <b>DBpedia</b>. Para tal utilizei a seguinte <i>query</i> de <b>SPARQL</b>:
+         </p>
+         
+         <pre>
+            select distinct ?swimmer ?name ?gender ?birthDate ?birthPlace ?deathDate ?abstract where {
+               ?swimmer a dbo:Swimmer.
+               ?swimmer foaf:name ?name.
+               ?swimmer foaf:gender ?gender.
+               ?swimmer dbo:birthDate ?birthDate.
+               
+               OPTIONAL { ?swimmer dbo:birthPlace ?birthPlace.}
+               OPTIONAL { ?swimmer dbo:deathDate ?deathDate.}
+               OPTIONAL { 
+                  ?swimmer dbo:abstract ?abstract.
+                  FILTER (lang(?abstract) = 'en')
+               }
+            }
+         </pre>
+                  
+      </div>
+   </body>
+</html>
