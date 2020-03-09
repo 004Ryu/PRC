@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h1 Arquivo de Música Digital
+	.w3-container
+		table.w3-table-all
+			tr
+				th.w3-center.w3-large ID
+				th.w3-center.w3-large Título
+				th.w3-center.w3-large Nº Partituras
+			each o in obras
+				tr
+					td= o.id
+					td.w3-center.button.w3-button(onclick="metaObra('" + o.id + "')") #{o.tit}
+					td= o.nparts
