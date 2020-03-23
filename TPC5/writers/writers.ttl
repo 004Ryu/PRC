@@ -1,0 +1,704 @@
+
+ 
+  
+  
+  
+  
+  
+  
+ 
+ 
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "female"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "male"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "female creature"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "male creature"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "transgender female"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "transgender male"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "transvestism"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "intersex"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "genderqueer"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "hermaphrodite"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-02-21"^^xsd:string ;
+        :sexo "faafafine"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "female"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "male"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "female creature"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "male creature"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "transgender female"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "transgender male"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "transvestism"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "intersex"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "genderqueer"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "hermaphrodite"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Alan_Rickman
+        :Alan_Rickman rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Alan Rickman"^^xsd:string ;
+        :dataNascimento "1946-2-21"^^xsd:string ;
+        :sexo "faafafine"^^xsd:string ;
+        :parceira "Rima_Horton"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "female"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "male"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "female creature"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "male creature"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "transgender female"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "transgender male"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "transvestism"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "intersex"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "genderqueer"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "hermaphrodite"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrew_Sarris
+        :Andrew_Sarris rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrew Sarris"^^xsd:string ;
+        :dataNascimento "1928-10-31"^^xsd:string ;
+        :sexo "faafafine"^^xsd:string ;
+        :parceira "Molly_Haskell"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "female"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "male"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "female creature"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "male creature"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "transgender female"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "transgender male"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "transvestism"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "intersex"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "genderqueer"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "hermaphrodite"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "faafafine"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "female"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "male"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "female creature"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "male creature"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "transgender female"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "transgender male"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "transvestism"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "intersex"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "genderqueer"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "hermaphrodite"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "faafafine"^^xsd:string ;
+        :parceira "Beata_Tyszkiewicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "female"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "male"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "female creature"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "male creature"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "transgender female"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "transgender male"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "transvestism"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "intersex"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "genderqueer"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "hermaphrodite"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-03-06"^^xsd:string ;
+        :sexo "faafafine"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "female"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "male"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "female creature"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "male creature"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "transgender female"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "transgender male"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "transvestism"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "intersex"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "genderqueer"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "hermaphrodite"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+  
+        ###  http://www.semanticweb.org/semanas/ontologies/2020/2/cinema#Andrzej_Wajda
+        :Andrzej_Wajda rdf:type owl:NamedIndividual ,
+        :Escritor ;
+        :nome "Andrzej Wajda"^^xsd:string ;
+        :dataNascimento "1926-3-6"^^xsd:string ;
+        :sexo "faafafine"^^xsd:string ;
+        :parceira "Krystyna_Zachwatowicz"^^xsd:string .
+    
+ 

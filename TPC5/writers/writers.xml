@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="./writers_xml2ttl.xsl"?>
+<sparql>
+ <head>
+  <variable name="w"/>
+  <variable name="wname"/>
+  <variable name="bdate"/>
+  <variable name="gender"/>
+  <variable name="wife"/>
+  <variable name="abs"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transvestism</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">intersex</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">genderqueer</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">hermaphrodite</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-02-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">fa&#39;afafine</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transvestism</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">intersex</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">genderqueer</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">hermaphrodite</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Alan_Rickman</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Alan Rickman</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1946-2-21</literal></binding>
+   <binding name="gender"><literal xml:lang="en">fa&#39;afafine</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Rima_Horton</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Alan Sidney Patrick Rickman (21 February 1946 – 14 January 2016) was an English actor and director known for playing a variety of roles on stage and screen. Rickman trained at the Royal Academy of Dramatic Art in London, and was a member of the Royal Shakespeare Company, performing in modern and classical theatre productions. His first big television part came in 1982, but his big break was as the Vicomte de Valmont in the stage production of Les Liaisons Dangereuses in 1985, for which he was nominated for a Tony Award. Rickman gained wider notice for his film performances as Hans Gruber in Die Hard and Severus Snape in the Harry Potter film series. Rickman&#39;s other film roles included the Sheriff of Nottingham in Robin Hood: Prince of Thieves, for which he received the BAFTA Award for Best Actor in a Supporting Role, Jamie in Truly, Madly, Deeply, Colonel Brandon in Ang Lee&#39;s Sense and Sensibility, the title character in Rasputin: Dark Servant of Destiny, which won him a Golden Globe, an Emmy and a Screen Actors Guild Award, Harry in Love Actually, P. L. O&#39;Hara in An Awfully Big Adventure, Dr. Alfred Blalock in the Emmy-winning HBO film Something the Lord Made, Alexander Dane in Galaxy Quest, and Judge Turpin in the film adaptation of Stephen Sondheim&#39;s musical of Sweeney Todd: The Demon Barber of Fleet Street. Rickman died of pancreatic cancer on 14 January 2016 at the age of 69. His final film roles are as Lieutenant General Frank Benson in the thriller Eye in the Sky, and the voice of Absolem -The Caterpillar in Alice in Wonderland and its sequel Alice Through the Looking Glass.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transvestism</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">intersex</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">genderqueer</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">hermaphrodite</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrew_Sarris</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrew Sarris</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1928-10-31</literal></binding>
+   <binding name="gender"><literal xml:lang="en">fa&#39;afafine</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Molly_Haskell</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrew Sarris (October 31, 1928 – June 20, 2012) was an American film critic, a leading proponent of the auteur theory of film criticism.</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transvestism</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">intersex</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">genderqueer</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">hermaphrodite</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">fa&#39;afafine</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transvestism</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">intersex</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">genderqueer</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">hermaphrodite</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">fa&#39;afafine</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Beata_Tyszkiewicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transvestism</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">intersex</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">genderqueer</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">hermaphrodite</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-03-06</literal></binding>
+   <binding name="gender"><literal xml:lang="en">fa&#39;afafine</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">female creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">male creature</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender female</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transgender male</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">transvestism</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">intersex</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">genderqueer</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">hermaphrodite</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+  <result>
+   <binding name="w"><uri>http://dbpedia.org/resource/Andrzej_Wajda</uri></binding>
+   <binding name="wname"><literal xml:lang="en">Andrzej Wajda</literal></binding>
+   <binding name="bdate"><literal datatype="http://www.w3.org/2001/XMLSchema#date">1926-3-6</literal></binding>
+   <binding name="gender"><literal xml:lang="en">fa&#39;afafine</literal></binding>
+   <binding name="wife"><uri>http://dbpedia.org/resource/Krystyna_Zachwatowicz</uri></binding>
+   <binding name="abs"><literal xml:lang="en">Andrzej Witold Wajda (Polish: [ˈandʐɛj ˈvajda]; 6 March 1926 – 9 October 2016) was a Polish film and theatre director. Recipient of an Honorary Oscar and the Palme d&#39;Or, he was a prominent member of the &quot;Polish Film School&quot;. He was known especially for his trilogy of war films consisting of A Generation (1954), Kanał (1956) and Ashes and Diamonds (1958). Four of his films have been nominated for the Academy Award for Best Foreign Language Film: The Promised Land (1975), The Maids of Wilko (1979), Man of Iron (1981) and Katyń (2007).</literal></binding>
+  </result>
+ </results>
+</sparql>
