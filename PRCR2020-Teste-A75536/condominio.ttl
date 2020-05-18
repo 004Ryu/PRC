@@ -1,0 +1,240 @@
+@prefix : <http://www.semanticweb.org/jcr/ontologies/2020/2.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/jcr/ontologies/2020/condominio.ttl> .
+
+<http://www.semanticweb.org/jcr/ontologies/2020/condominio.ttl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#pagou
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#pagou> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/jcr/ontologies/2020/condominio.ttl#email
+:email rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/jcr/ontologies/2020/condominio.ttl#mensalidade
+:mensalidade rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/jcr/ontologies/2020/condominio.ttl#telefone
+:telefone rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/jcr/ontologies/2020/condominio.ttl#Propietario
+:Propietario rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Garagem
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Garagem> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Loja
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Loja> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Abril2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Abril2020> rdf:type owl:NamedIndividual ,
+                                                                           <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Agosto2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Agosto2020> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Dezembro2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Dezembro2020> rdf:type owl:NamedIndividual ,
+                                                                              <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fevereiro2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fevereiro2020> rdf:type owl:NamedIndividual ,
+                                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Janeiro2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Janeiro2020> rdf:type owl:NamedIndividual ,
+                                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Julho2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Julho2020> rdf:type owl:NamedIndividual ,
+                                                                           <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Junho2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Junho2020> rdf:type owl:NamedIndividual ,
+                                                                           <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Loja
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Loja> rdf:type owl:NamedIndividual ,
+                                                                      <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ,
+                                                                      <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Loja> ;
+                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "Loja" ;
+                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 50 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Maio2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Maio2020> rdf:type owl:NamedIndividual ,
+                                                                          <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Março2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Março2020> rdf:type owl:NamedIndividual ,
+                                                                           <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Novembro2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Novembro2020> rdf:type owl:NamedIndividual ,
+                                                                              <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Outubro2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Outubro2020> rdf:type owl:NamedIndividual ,
+                                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#Setembro2020
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#Setembro2020> rdf:type owl:NamedIndividual ,
+                                                                              <http://www.semanticweb.org/semanas/ontologies/2020/4/con#MesesPagos> .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#1º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#1º_Dto> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#pagou> <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Abril2020> ,
+                                                                                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fevereiro2020> ,
+                                                                                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Janeiro2020> ,
+                                                                                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Março2020> ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "1º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 6 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#1º_Esq
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#1º_Esq> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#pagou> <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fevereiro2020> ,
+                                                                                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Janeiro2020> ,
+                                                                                                                             <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Março2020> ;
+                                                               :mensalidade 51.63 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "1º Esq" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 34 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#2º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#2º_Dto> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "2º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 24 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#3º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#3º_Dto> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#pagou> <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Janeiro2020> ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "3º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 24 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#4º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#4º_Dto> rdf:type owl:NamedIndividual ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "4º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 24 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#5º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#5º_Dto> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "5º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 24 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#6º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#6º_Dto> rdf:type owl:NamedIndividual ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "6º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 24 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#7º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#7º_Dto> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "7º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 24 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#7º_Esq
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#7º_Esq> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               :mensalidade 51.63 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "7º Esq" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 34 .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/con#8º_Dto
+<http://www.semanticweb.org/semanas/ontologies/2020/4/con#8º_Dto> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Apartamento> ,
+                                                                        <http://www.semanticweb.org/semanas/ontologies/2020/4/con#Fração> ;
+                                                               :mensalidade 36.45 ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#nome> "8º Dto" ;
+                                                               <http://www.semanticweb.org/semanas/ontologies/2020/4/con#permilagem> 24 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

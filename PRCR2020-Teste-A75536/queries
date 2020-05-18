@@ -24,6 +24,15 @@
     }
 
 
+2.
+    2.
+        select * {
+            ?f a :Fração.
+            FILTER NOT EXISTS {
+            ?f :pagou :Abril2020.
+            }
+        }
+
 
 
 3. O resultado com todos os triplos foi importado em formato XML pois não foi possível importar em formato Turtle.
