@@ -33,6 +33,13 @@
             }
         }
 
+    4.
+        select (count(distinct ?pag) as ?count) {
+            ?f a :Fração.
+            ?f :pagou ?x.
+            ?f :mensalidade ?pag.
+        }
+
 
 
 3. O resultado com todos os triplos foi importado em formato XML pois não foi possível importar em formato Turtle.
