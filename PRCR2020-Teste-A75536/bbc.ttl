@@ -1,0 +1,568 @@
+@prefix : <http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/semanas/ontologies/2020/4/bbc> .
+
+<http://www.semanticweb.org/semanas/ontologies/2020/4/bbc> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#hasIngredient
+:hasIngredient rdf:type owl:ObjectProperty ;
+               owl:inverseOf :onRecipe ;
+               rdfs:domain :Recipe ;
+               rdfs:range :Ingredient .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#hasRecipe
+:hasRecipe rdf:type owl:ObjectProperty ;
+           rdfs:domain :Menu ;
+           rdfs:range :Recipe .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#onCollection
+:onCollection rdf:type owl:ObjectProperty ;
+              rdfs:domain :Recipe ;
+              rdfs:range :Collection .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#onMenu
+:onMenu rdf:type owl:ObjectProperty ;
+        owl:inverseOf :onMenu ;
+        rdf:type owl:SymmetricProperty .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#onRecipe
+:onRecipe rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#name
+:name rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#Collection
+:Collection rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#Ingredient
+:Ingredient rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#Menu
+:Menu rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#Recipe
+:Recipe rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#amendoim_picado
+:amendoim_picado rdf:type owl:NamedIndividual ,
+                          :Ingredient ;
+                 :onRecipe :pad_thai_pak ;
+                 :name "Amendoim Picado"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#ananas
+:ananas rdf:type owl:NamedIndividual ,
+                 :Ingredient ;
+        :onRecipe :gaeng_kua_goong ,
+                  :pad_preaw_whan_gai ;
+        :name "Ananás"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#arroz_frito
+:arroz_frito rdf:type owl:NamedIndividual ,
+                      :Ingredient ;
+             :onRecipe :khao_pad_pak_ruam .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#arroz_tai
+:arroz_tai rdf:type owl:NamedIndividual ,
+                    :Ingredient ;
+           :onRecipe :filetes ,
+                     :garoupa ;
+           :name "Arroz Tailandês"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#camarao
+:camarao rdf:type owl:NamedIndividual ,
+                  :Ingredient ;
+         :onRecipe :gaeng_kua_goong ,
+                   :pad_gra_pao_goong ,
+                   :satay_goong ;
+         :name "Camarão"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#caril_tai
+:caril_tai rdf:type owl:NamedIndividual ,
+                    :Ingredient ;
+           :onRecipe :gaeng_kua_goong ;
+           :name "Caril Tailandês"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#cebola
+:cebola rdf:type owl:NamedIndividual ,
+                 :Ingredient ;
+        :onRecipe :pad_preaw_whan_gai ;
+        :name "Cebola"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#cogumelos_shitaki
+:cogumelos_shitaki rdf:type owl:NamedIndividual ,
+                            :Ingredient ;
+                   :onRecipe :yum_hed_shitaki ;
+                   :name "Cogumelos Shitáki"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#durian
+:durian rdf:type owl:NamedIndividual ,
+                 :Ingredient ,
+                 :Recipe ;
+        :onCollection :sobremesas ;
+        :name "Durian"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#entrada
+:entrada rdf:type owl:NamedIndividual ,
+                  :Collection ;
+         :name "Entrada"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#filetes
+:filetes rdf:type owl:NamedIndividual ,
+                  :Recipe ;
+         :hasIngredient :arroz_tai ,
+                        :galo ,
+                        :molho_de_amendoim ;
+         :onCollection :prato_peixe .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#frango
+:frango rdf:type owl:NamedIndividual ,
+                 :Ingredient ;
+        :onRecipe :gai_pad_gra_pao ,
+                  :pad_preaw_whan_gai ,
+                  :satay_gai ;
+        :name "Frango"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#gaeng_kua_goong
+:gaeng_kua_goong rdf:type owl:NamedIndividual ,
+                          :Recipe ;
+                 :hasIngredient :ananas ,
+                                :camarao ,
+                                :caril_tai ;
+                 :onCollection :prato_marisco .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#gai_pad_gra_pao
+:gai_pad_gra_pao rdf:type owl:NamedIndividual ,
+                          :Recipe ;
+                 :hasIngredient :frango ,
+                                :malaguetas ,
+                                :manjericao ;
+                 :onCollection :prato_frango ;
+                 :name "Gai Pad Gra Pao"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#galo
+:galo rdf:type owl:NamedIndividual ,
+               :Ingredient ;
+      :onRecipe :filetes ;
+      :name "Peixe Galo"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#garoupa
+:garoupa rdf:type owl:NamedIndividual ,
+                  :Recipe ;
+         :hasIngredient :arroz_tai ,
+                        :garoupa_caril_verde ;
+         :onCollection :prato_peixe .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#garoupa_caril_verde
+:garoupa_caril_verde rdf:type owl:NamedIndividual ,
+                              :Ingredient ;
+                     :onRecipe :garoupa ;
+                     :name "Garoupa de caril  verde"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#glass_noodles
+:glass_noodles rdf:type owl:NamedIndividual ,
+                        :Ingredient ;
+               :onRecipe :tom_jeud_pak ,
+                         :yun_woon_sen_talay ;
+               :name "Glass Noodles (massinhas transparentes)"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#khao_pad_pak_ruam
+:khao_pad_pak_ruam rdf:type owl:NamedIndividual ,
+                            :Recipe ;
+                   :hasIngredient :arroz_frito ,
+                                  :legumes ;
+                   :onCollection :vegetariano .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#legumes
+:legumes rdf:type owl:NamedIndividual ,
+                  :Ingredient ;
+         :onRecipe :khao_pad_pak_ruam ,
+                   :neha_pad_pak_ruam ,
+                   :pad_phak ,
+                   :tom_jeud_pak ;
+         :name "Legumes"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#leite_coco
+:leite_coco rdf:type owl:NamedIndividual ,
+                     :Ingredient ;
+            :onRecipe :sago ,
+                      :tom_kha_pah ;
+            :name "Leite de Coco"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#lima
+:lima rdf:type owl:NamedIndividual ,
+               :Ingredient ;
+      :onRecipe :sago ;
+      :name "Lima"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#malaguetas
+:malaguetas rdf:type owl:NamedIndividual ,
+                     :Ingredient ;
+            :onRecipe :gai_pad_gra_pao ,
+                      :neha_pad_gra_pao ,
+                      :pad_gra_pao_goong ;
+            :name "Malaguetas"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#manjericao
+:manjericao rdf:type owl:NamedIndividual ,
+                     :Ingredient ;
+            :onRecipe :gai_pad_gra_pao ,
+                      :neha_pad_gra_pao ,
+                      :pad_gra_pao_goong ;
+            :name "Folhas de Manjericão"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#marisco
+:marisco rdf:type owl:NamedIndividual ,
+                  :Ingredient ;
+         :onRecipe :yun_woon_sen_talay ;
+         :name "Marisco"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#massinha_arroz_frito
+:massinha_arroz_frito rdf:type owl:NamedIndividual ,
+                               :Ingredient ;
+                      :onRecipe :pad_seung_neung ,
+                                :pad_thai_pak ;
+                      :name "Massinha de Arraoz Frito"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#menu1
+:menu1 rdf:type owl:NamedIndividual ,
+                :Menu ;
+       :hasRecipe :gai_pad_gra_pao ,
+                  :neha_pad_gra_pao ,
+                  :sago .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#menu2
+:menu2 rdf:type owl:NamedIndividual ,
+                :Menu ;
+       :hasRecipe :durian ,
+                  :gaeng_kua_goong ,
+                  :pad_thai_pak .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#molho_agridoce
+:molho_agridoce rdf:type owl:NamedIndividual ,
+                         :Ingredient ;
+                :onRecipe :pad_preaw_whan_gai ;
+                :name "Molho Agridoce"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#molho_de_amendoim
+:molho_de_amendoim rdf:type owl:NamedIndividual ,
+                            :Ingredient ;
+                   :onRecipe :filetes ,
+                             :satay_gai ,
+                             :satay_goong ;
+                   :name "Molho de Amendoim"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#molho_ostras
+:molho_ostras rdf:type owl:NamedIndividual ,
+                       :Ingredient ;
+              :onRecipe :neha_pad_pak_ruam ,
+                        :pad_phak ;
+              :name "Molho de Ostras"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#molho_soja
+:molho_soja rdf:type owl:NamedIndividual ,
+                     :Ingredient ;
+            :onRecipe :pad_seung_neung ;
+            :name "Molho de Soja"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#molho_tamarindo
+:molho_tamarindo rdf:type owl:NamedIndividual ,
+                          :Ingredient ;
+                 :onRecipe :pad_thai_pak ;
+                 :name "Molho de Tamarindo"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#neha_pad_gra_pao
+:neha_pad_gra_pao rdf:type owl:NamedIndividual ,
+                           :Recipe ;
+                  :hasIngredient :malaguetas ,
+                                 :manjericao ,
+                                 :vaca ;
+                  :onCollection :prato_vaca ;
+                  :name "Neha Pad Gra Pao"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#neha_pad_pak_ruam
+:neha_pad_pak_ruam rdf:type owl:NamedIndividual ,
+                            :Recipe ;
+                   :hasIngredient :legumes ,
+                                  :molho_ostras ,
+                                  :vaca ;
+                   :onCollection :prato_vaca ;
+                   :name "Neha Pad Pak Ruam"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#ovo
+:ovo rdf:type owl:NamedIndividual ,
+              :Ingredient ;
+     :name "Ovo"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#pad_gra_pao_goong
+:pad_gra_pao_goong rdf:type owl:NamedIndividual ,
+                            :Recipe ;
+                   :hasIngredient :camarao ,
+                                  :malaguetas ,
+                                  :manjericao ;
+                   :onCollection :prato_marisco ;
+                   :name "Pad Gra Pao Goong"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#pad_phak
+:pad_phak rdf:type owl:NamedIndividual ,
+                   :Recipe ;
+          :hasIngredient :legumes ,
+                         :molho_ostras ;
+          :onCollection :vegetariano .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#pad_preaw_whan_gai
+:pad_preaw_whan_gai rdf:type owl:NamedIndividual ,
+                             :Recipe ;
+                    :hasIngredient :ananas ,
+                                   :cebola ,
+                                   :frango ,
+                                   :molho_agridoce ,
+                                   :pepino ;
+                    :onCollection :prato_frango .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#pad_seung_neung
+:pad_seung_neung rdf:type owl:NamedIndividual ,
+                          :Recipe ;
+                 :hasIngredient :massinha_arroz_frito ,
+                                :molho_soja ,
+                                :vaca ;
+                 :onCollection :principal ;
+                 :name "Pad Seung Neung"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#pad_thai_pak
+:pad_thai_pak rdf:type owl:NamedIndividual ,
+                       :Recipe ;
+              :hasIngredient :amendoim_picado ,
+                             :massinha_arroz_frito ,
+                             :molho_tamarindo ,
+                             :soja ;
+              :onCollection :principal ;
+              :name "Pad Thai Pak"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#pato
+:pato rdf:type owl:NamedIndividual ,
+               :Collection ;
+      :name "Pato"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#peixe
+:peixe rdf:type owl:NamedIndividual ,
+                :Ingredient ;
+       :onRecipe :tom_kha_pah ;
+       :name "Peixe"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#pepino
+:pepino rdf:type owl:NamedIndividual ,
+                 :Ingredient ;
+        :onRecipe :pad_preaw_whan_gai ;
+        :name "Pepino"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#prato_frango
+:prato_frango rdf:type owl:NamedIndividual ,
+                       :Collection ;
+              :name "Peito de Frango"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#prato_marisco
+:prato_marisco rdf:type owl:NamedIndividual ,
+                        :Collection ;
+               :name "Pratos de Mariscos"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#prato_peixe
+:prato_peixe rdf:type owl:NamedIndividual ,
+                      :Collection ;
+             :name "Peixe"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#prato_vaca
+:prato_vaca rdf:type owl:NamedIndividual ,
+                     :Collection ;
+            :name "Pratos de vaca"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#principal
+:principal rdf:type owl:NamedIndividual ,
+                    :Collection .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#sago
+:sago rdf:type owl:NamedIndividual ,
+               :Recipe ;
+      :hasIngredient :leite_coco ,
+                     :lima ,
+                     :tapioca ;
+      :onCollection :sobremesas .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#saladas
+:saladas rdf:type owl:NamedIndividual ,
+                  :Collection ;
+         :name "Saladas"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#satay_gai
+:satay_gai rdf:type owl:NamedIndividual ,
+                    :Recipe ;
+           :hasIngredient :frango ,
+                          :molho_de_amendoim ;
+           :onCollection :entrada ;
+           :name "Satay Gai"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#satay_goong
+:satay_goong rdf:type owl:NamedIndividual ,
+                      :Recipe ;
+             :hasIngredient :camarao ,
+                            :molho_de_amendoim ;
+             :onCollection :entrada .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#sobremesas
+:sobremesas rdf:type owl:NamedIndividual ,
+                     :Collection ;
+            :name "Sobremesas"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#soja
+:soja rdf:type owl:NamedIndividual ,
+               :Ingredient ;
+      :onRecipe :pad_thai_pak ;
+      :name "Brotos de Soja"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#sopas
+:sopas rdf:type owl:NamedIndividual ,
+                :Collection ;
+       :name "Sopas"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#tapioca
+:tapioca rdf:type owl:NamedIndividual ,
+                  :Ingredient ;
+         :onRecipe :sago ;
+         :name "Tapioca"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#tom_jeud_pak
+:tom_jeud_pak rdf:type owl:NamedIndividual ,
+                       :Recipe ;
+              :hasIngredient :glass_noodles ,
+                             :legumes ;
+              :onCollection :sopas .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#tom_kha_pah
+:tom_kha_pah rdf:type owl:NamedIndividual ,
+                      :Recipe ;
+             :hasIngredient :leite_coco ,
+                            :peixe ;
+             :onCollection :sopas ;
+             :name "Tom Kha Pah"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#vaca
+:vaca rdf:type owl:NamedIndividual ,
+               :Ingredient ;
+      :onRecipe :neha_pad_gra_pao ,
+                :neha_pad_pak_ruam ,
+                :pad_seung_neung ;
+      :name "Vaca"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#vegetariano
+:vegetariano rdf:type owl:NamedIndividual ,
+                      :Collection ;
+             :name "Pratos Vegetarianos"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#yum_hed_shitaki
+:yum_hed_shitaki rdf:type owl:NamedIndividual ,
+                          :Recipe ;
+                 :hasIngredient :cogumelos_shitaki ;
+                 :onCollection :saladas ;
+                 :name "Yum Hed Shitaki"^^xsd:string .
+
+
+###  http://www.semanticweb.org/semanas/ontologies/2020/4/bbc#yun_woon_sen_talay
+:yun_woon_sen_talay rdf:type owl:NamedIndividual ,
+                             :Recipe ;
+                    :hasIngredient :glass_noodles ,
+                                   :marisco ;
+                    :onCollection :saladas ;
+                    :name "Yun Woon Sen Talay"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,112 @@
+1.  
+    Quais os pratos que levam camarão?
+
+    select * where { 
+        ?Recipe :hasIngredient :camarao.
+    }
+
+
+    Que sobremesas existem num determinado menu?
+
+    select * where { 
+        :menu1 :hasRecipe ?Recipe. 
+        ?Recipe :onCollection :sobremesas.
+    }
+
+
+    Quais os pratos que não incluem "molho de amendoim"?
+
+    select * where { 
+        ?Recipe a :Recipe.
+        FILTER NOT EXISTS {
+            ?Recipe :hasIngredient :molho_de_amendoim
+        }
+    }
+
+
+
+
+3. O resultado com todos os triplos foi importado em formato XML pois não foi possível importar em formato Turtle.
+
+    Tio e Sobrinho:  (2nd import)
+        Construct{
+            ?b :tio ?a.
+            ?a :eSobrinho ?b.
+        }
+        Where {
+            ?a a :Pessoa. 
+            {
+                { ?b :temPai ?x . } union { ?b :temMae ?x . }
+            }
+            ?x :temIrmao ?a .
+            filter(?b != ?a)
+        }
+
+    Primo:   (3rd import)
+        Construct{
+            ?b :ePrimo ?a.
+            ?a :ePrimo ?b.
+        }
+        Where {
+            ?a a :Pessoa. 
+            {
+                { ?b :temPai ?x . } union { ?b :temMae ?x . }
+            }
+            ?a :tio ?x .
+            filter(?b != ?a)
+        }
+
+    Avo e Neto:  (4th import)
+        Construct{
+            ?b :eAvo ?a.
+            ?a :eNeto ?b.
+        }
+        Where {
+            ?b a :Pessoa. 
+            {
+                { ?a :temPai ?x . } union { ?a :temMae ?x . }
+            }
+            {
+                { ?x :temPai ?b . } union { ?x :temMae ?b . }
+            }
+            filter(?b != ?a)
+        }
+
+    Irmao: (1st import)
+        Construct{
+            ?a :irmao ?b.
+        }
+        Where {
+            ?a a :Pessoa.
+            ?b a :Pessoa.
+            ?a :temPai ?x. 
+            ?a :temMae ?y. 
+            ?b :temPai ?x. 
+            ?b :temMae ?y.
+            filter(?b != ?a).
+        }
+
+    Meio-Irmao:  (5th import)
+        Construct{
+            ?a :eMeioIrmao ?b.
+            ?b :eMeioIrmao ?a.
+        }
+        Where {
+            ?a a :Pessoa.
+            ?b a :Pessoa.
+            ?a :temPai ?x. 
+            ?a :temMae ?y. 
+            ?b :temPai ?xx. 
+            ?b :temMae ?yy.
+            {
+                {
+                    filter(?x != ?xx).
+                    filter(?y = ?yy).
+                } 
+                union 
+                {
+                    filter(?y != ?yy).
+                    filter(?x = ?xx).
+                }
+            }
+        }
